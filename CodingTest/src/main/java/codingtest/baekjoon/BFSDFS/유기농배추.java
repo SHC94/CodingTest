@@ -1,4 +1,4 @@
-package codingtest.baekjoon.BFS;
+package codingtest.baekjoon.BFSDFS;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
