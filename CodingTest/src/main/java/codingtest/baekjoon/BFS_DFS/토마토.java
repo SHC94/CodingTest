@@ -1,4 +1,4 @@
-package codingtest.baekjoon.BFSDFS;
+package codingtest.baekjoon.BFS_DFS;
 
 import java.util.LinkedList;
 import java.util.Queue;

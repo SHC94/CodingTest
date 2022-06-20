@@ -1,4 +1,4 @@
-package codingtest.baekjoon.BFSDFS;
+package codingtest.baekjoon.BFS_DFS;
 
 import java.util.Arrays;
 import java.util.Scanner;
