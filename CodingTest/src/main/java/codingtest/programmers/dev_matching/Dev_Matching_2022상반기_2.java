@@ -1,4 +1,4 @@
-package codingtest.programmers.level3;
+package codingtest.programmers.dev_matching;
 
 import java.util.Arrays;
 

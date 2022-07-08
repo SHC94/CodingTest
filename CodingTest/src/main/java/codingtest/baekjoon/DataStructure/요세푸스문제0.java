@@ -1,4 +1,4 @@
-package codingtest.baekjoon.DataStructure.queue;
+package codingtest.baekjoon.DataStructure;
 
 import java.util.LinkedList;
 import java.util.Queue;

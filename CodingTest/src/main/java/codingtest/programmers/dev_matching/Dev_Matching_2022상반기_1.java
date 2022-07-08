@@ -1,4 +1,4 @@
-package codingtest.programmers.level3;
+package codingtest.programmers.dev_matching;
 
 public class Dev_Matching_2022상반기_1 {
 	
