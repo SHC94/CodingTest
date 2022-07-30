@@ -1,8 +1,8 @@
-package codingtest.coupang;
+package codingtest.self.coupang;
 
 import java.util.*;
 
-public class SCM_Back_end_Engineer_in_2022_1 {
+public class Task01 {
 	
 	public static void main(String[] args) {
 

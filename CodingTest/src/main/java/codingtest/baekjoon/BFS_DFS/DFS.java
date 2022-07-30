@@ -1,4 +1,4 @@
-package codingtest.self;
+package codingtest.baekjoon.BFS_DFS;
 
 import java.util.Stack;
 

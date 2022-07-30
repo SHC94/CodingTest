@@ -1,6 +1,6 @@
-package codingtest.coupang;
+package codingtest.self.coupang;
 
-public class SCM_Back_end_Engineer_in_2022_3_reStart1 {
+public class Task03_2 {
 	
 	public static void main(String[] args) {
 		

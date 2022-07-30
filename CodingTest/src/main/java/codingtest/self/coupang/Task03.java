@@ -1,9 +1,9 @@
-package codingtest.coupang;
+package codingtest.self.coupang;
 
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class SCM_Back_end_Engineer_in_2022_3 {
+public class Task03 {
 	
 	public static void main(String[] args) {
 		

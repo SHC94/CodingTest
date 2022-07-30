@@ -1,4 +1,4 @@
-package codingtest.self;
+package codingtest.self.coinone;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -6,7 +6,7 @@ import java.util.PriorityQueue;
 
 import org.hibernate.internal.build.AllowSysOut;
 
-public class TWO {
+public class Task02 {
 	
 	public static void main(String[] args) {
 		

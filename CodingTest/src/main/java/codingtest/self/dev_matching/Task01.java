@@ -1,6 +1,6 @@
-package codingtest.programmers.dev_matching;
+package codingtest.self.dev_matching;
 
-public class Dev_Matching_2022상반기_1 {
+public class Task01 {
 	
 	public static void main(String[] args) {
 		

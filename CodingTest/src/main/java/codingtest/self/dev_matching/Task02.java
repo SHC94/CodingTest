@@ -1,8 +1,8 @@
-package codingtest.programmers.dev_matching;
+package codingtest.self.dev_matching;
 
 import java.util.Arrays;
 
-public class Dev_Matching_2022상반기_2 {
+public class Task02 {
 	
 	public static void main(String[] args) {
 		

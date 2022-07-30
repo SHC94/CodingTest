@@ -1,9 +1,9 @@
-package codingtest.self;
+package codingtest.self.coinone;
 
 import java.util.Arrays;
 import java.util.Stack;
 
-public class One {
+public class Task01 {
 	
 	public static void main(String[] args) {
 		
