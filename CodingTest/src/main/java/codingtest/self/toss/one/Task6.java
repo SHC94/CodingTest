@@ -1,6 +1,6 @@
 package codingtest.self.toss.one;
 
-import java.util.HashMap;import org.springframework.validation.BindingErrorProcessor;
+import java.util.HashMap;
 
 public class Task6 {
 	
@@ -28,8 +28,6 @@ public class Task6 {
         	}//end if()
         	
         }//end for()
-        
-        
         
         return answer;
     }//end solution()
