@@ -32,5 +32,5 @@ public class 절댓값힙 {
 				queue.add(val);
 			}//end if()
 		}//end for()
-	}//end main()
-}//end class()
+	}
+}// end class()
