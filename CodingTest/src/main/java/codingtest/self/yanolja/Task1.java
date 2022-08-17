@@ -1,4 +1,4 @@
-package codingtest.self.yanoljaCodility;
+package codingtest.self.yanolja;
 
 import java.util.ArrayList;
 import java.util.List;

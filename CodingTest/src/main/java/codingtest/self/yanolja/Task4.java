@@ -1,4 +1,4 @@
-package codingtest.self.yanoljaCodility;
+package codingtest.self.yanolja;
 
 public class Task4 {
 
