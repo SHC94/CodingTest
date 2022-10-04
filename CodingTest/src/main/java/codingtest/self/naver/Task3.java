@@ -73,6 +73,11 @@ class Pet {
     public String getName() {
         return name;
     }
+
+	public void setName(String petName) {
+		// TODO Auto-generated method stub
+		
+	}
 }
 
 class PersonNotFoundException extends RuntimeException {
