@@ -10,7 +10,7 @@ public class DFS {
 	static boolean[] VISITED = new boolean[MAX_N];	//방문 여부 확인
 	
 	public static void main(String[] args) {
-		
+		   
 		//실행 타입
 		//1 : 인접행렬
 		//2 : 스택
