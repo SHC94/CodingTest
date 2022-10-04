@@ -14,7 +14,7 @@ public class DFS와BFS {
 	private static int N;
 	private static int M;
 	private static int V;
-
+ 
 	public static void main(String[] args) throws IOException {
 		Scanner sc = new Scanner(System.in);
 		N = sc.nextInt();
