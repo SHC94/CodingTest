@@ -20,7 +20,7 @@ public class K번째수 {
 		String[] result 	= solution(record);
 		
 		System.out.println(Arrays.toString(result));
-	}//end main()j
+	}//end main()
 	
 	public static String[] solution(String[] record) {
         List<String> resultList 		= new ArrayList<String>();
