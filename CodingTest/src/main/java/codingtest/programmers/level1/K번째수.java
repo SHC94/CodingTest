@@ -38,7 +38,7 @@ public class K번째수 {
         		resultList.add(msg);
         		chatMap.put(id, name);
         	} else if ("Leave".equals(move)) {
-        		String msg = id + "/님이 나갔습니다.";
+        		String msg = id + "/님이 나갔습니다."; 
         		resultList.add(msg);
         	} else if ("Change".equals(move)) {
         		chatMap.put(id, name);
