@@ -30,7 +30,7 @@ public class K번째수 {
         	String step = record[a];
         	String move = step.split(" ")[0];
         	String id	= step.split(" ")[1];
-        	String name = ""; 
+        	String name = "";  
         	if(!"Leave".equals(move)) name = step.split(" ")[2];
         	
         	if("Enter".equals(move)) {
