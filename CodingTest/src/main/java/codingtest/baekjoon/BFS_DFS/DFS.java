@@ -24,7 +24,7 @@ public class DFS {
 		
 		for(int i = 0 ; i < E ; ++i) {
 			int x = eArr[i][0];
-			int y = eArr[i][1]; 
+			int y = eArr[i][1];  
 			
 			MAP[x][y] = MAP[y][x] = 1;	//인접 행렬 값 삽입
 		}//end for()
