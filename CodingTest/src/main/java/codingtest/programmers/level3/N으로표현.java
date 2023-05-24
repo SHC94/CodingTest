@@ -30,7 +30,7 @@ public class N으로표현 {
         list.get(1).add(N); 
         
         for(int i = 2 ; i < 9 ; i++){
-            Set<Integer> countSet = list.get(i);
+            Set<Integer> countSet = list.get(i); 
 
             for(int j = 1 ; j <= i ; j++){
                 Set<Integer> preSet = list.get(j);
