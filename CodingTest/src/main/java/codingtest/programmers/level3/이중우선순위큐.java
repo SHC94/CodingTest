@@ -23,7 +23,7 @@ public class 이중우선순위큐 {
 		
         PriorityQueue<Integer> q 		= new PriorityQueue<Integer>();
         PriorityQueue<Integer> reversQ 	= new PriorityQueue<Integer>(Collections.reverseOrder());
-        
+         
         for(int a = 0 ; a < operations.length ; a++) {
         	
         	String method 	= operations[a].split(" ")[0];
