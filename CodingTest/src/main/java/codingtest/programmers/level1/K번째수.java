@@ -23,7 +23,7 @@ public class K번째수 {
 	}//end main()
 	
 	public static String[] solution(String[] record) {
-        List<String> resultList 		= new ArrayList<String>();
+        List<String> resultList 		= new ArrayList<String>(); 
         HashMap<String, String> chatMap = new HashMap<String, String>();	//key : id / value : name
         
         for(int a = 0 ; a < record.length ; a++) {
