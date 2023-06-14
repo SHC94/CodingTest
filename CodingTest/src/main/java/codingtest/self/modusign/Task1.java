@@ -26,10 +26,7 @@ public class Task1 {
     }
 
     public static List<String> studentsThatPass(Stream<Student> students, int passingScore) {
-    	return students.filter(s -> passingScore <= s.score)
-                .sorted(Comparator.comparing(Student::getScore).reversed())
-                .map(Student::getName)
-                .toList();
+    	return null;
     }
 
     public static void main(String[] args) {

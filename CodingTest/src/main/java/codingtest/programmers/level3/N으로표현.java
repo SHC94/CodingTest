@@ -46,8 +46,6 @@ public class N으로표현 {
                     }//end for()
                 }//end for()
             }//end for()
-
-            countSet.add(Integer.parseInt(String.valueOf(N).repeat(i)));
         }//end for()
 
         for(Set<Integer> sub : list){
