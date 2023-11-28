@@ -10,7 +10,7 @@ public class 개수세기 {
 		HashMap<Integer, Integer> result = new HashMap<>();
 		Scanner sc 		= new Scanner(System.in);
 		int N 			= sc.nextInt();
-		
+
 		for(int a = 0 ; a < N ; a++) {
 			int key = sc.nextInt();
 			if(result.containsKey(key)) {
