@@ -11,7 +11,7 @@ public class 개수세기 {
 		Scanner sc 		= new Scanner(System.in);
 		int N 			= sc.nextInt();
 
-		for(int a = 0 ; a < N ; a++) {
+		for(int a = 0 ; a < N ; a++) { 
 			int key = sc.nextInt();
 			if(result.containsKey(key)) {
 				result.put(key, result.get(key) + 1);	
