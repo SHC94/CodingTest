@@ -3,59 +3,48 @@ package codingtest.baekjoon.브루트포스;
 import java.util.Scanner;
 
 public class 체스판다시칠하기 {
-	
-	public static boolean[][] arr;
-	public static int min = 64;
 
 	public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-		Scanner in 	= new Scanner(System.in);
-		int N 		= in.nextInt();
-		int M 		= in.nextInt();
-		arr 		= new boolean[N][M];
+        int N = sc.nextInt();
+        int M = sc.nextInt();
+        sc.nextLine();
 
-		for (int i = 0; i < N; i++) {
-			String str = in.next();
-			for (int j = 0; j < M; j++) {
-				if (str.charAt(j) == 'W') {
-					arr[i][j] = true;
-				} else {
-					arr[i][j] = false;
-				}//end if()
-			}//end for()
-		}//end for()
+        char[][] board = new char[N][M];
+        for (int i = 0; i < N; i++) {
+            String row = sc.nextLine();
+            board[i] = row.toCharArray();
+        }
 
-		int N_row = N - 7;
-		int M_col = M - 7;
+        int minChanges = Integer.MAX_VALUE;
 
-		for (int i = 0; i < N_row; i++) {
-			for (int j = 0; j < M_col; j++) {
-				find(i, j);
-			}//end for()
-		}//end for()
-		System.out.println(min);
-	}//end main()
+        for (int i = 0 ; i <= N - 8 ; i++) {
+            for (int j = 0 ; j <= M - 8 ; j++) {
+                int changes = countChanges(board, i, j);
+                minChanges = Math.min(minChanges, changes);
+            }
+        }
 
-	public static void find(int x, int y) {
-		int end_x = x + 8;
-		int end_y = y + 8;
-		int count = 0;
+        System.out.println(minChanges);
+    }
 
-		boolean TF = arr[x][y]; // 첫 번째 칸의 색
+    private static int countChanges(char[][] board, int x, int y) {
+        int changesPattern1 = 0;
+        int changesPattern2 = 0;
 
-		for (int i = x; i < end_x; i++) {
-			for (int j = y; j < end_y; j++) {
+        for (int i = 0 ; i < 8 ; i++) {
+            for (int j = 0 ; j < 8 ; j++) {
+                char currentCell = board[x + i][y + j];
+                char pattern1 = (i + j) % 2 == 0 ? 'W' : 'B';
+                char pattern2 = (i + j) % 2 == 0 ? 'B' : 'W';
 
-				if (arr[i][j] != TF) count++;
+                if (currentCell != pattern1) changesPattern1++;
+                if (currentCell != pattern2) changesPattern2++;
+            }
+        }
 
-				TF = (!TF);
-			}//end for()
-
-			TF = !TF;
-		}//end for()
-
-		count = Math.min(count, 64 - count);
-		min = Math.min(min, count);
-	}//end find()
+        return Math.min(changesPattern1, changesPattern2);
+    }
 	
-}//end class()
+}
