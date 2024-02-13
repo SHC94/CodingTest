@@ -54,7 +54,7 @@ public class 붕대감기 {
 		int result = health;
 		
 		HashMap<Integer, Integer> attack = new HashMap<>();
-
+		// ?
 		for(int a = 0 ; a < attacks.length ; a++) 
 			attack.put(attacks[a][0], attacks[a][1]);
 		
