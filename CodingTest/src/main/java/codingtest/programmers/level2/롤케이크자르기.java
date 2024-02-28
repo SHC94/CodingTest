@@ -21,8 +21,10 @@ public class 롤케이크자르기 {
 //롤케이크를 공평하게 자르는 방법의 수를 return 하도록 solution 함수를 완성해주세요.
 	private static HashSet<Integer> totolSet = new HashSet<>();
 	public static int solution(int[] topping) {
-        HashSet<Integer> set = new HashSet<>();
-        int answer 	= 0;
+
+        HashSet<Integer> set 	= new HashSet<>();
+        int answer 				= 0;
+
         int[] left 	= new int[topping.length];
         int[] right = new int[topping.length];
 
