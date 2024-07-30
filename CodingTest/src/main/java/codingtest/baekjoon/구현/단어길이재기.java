@@ -15,7 +15,7 @@ public class 단어길이재기 {
 		String.valueOf(false);
 
 		List<String> list = new ArrayList<>();
-		CollectionUtils.isEmpty(list); // test
+		CollectionUtils.isEmpty(list); // test test
 	}//end main()
 
 }//end class()
